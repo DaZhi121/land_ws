@@ -1,0 +1,21 @@
+# Catkin build artifacts
+build/
+devel/
+install/
+.catkin_tools/
+*.catkin_workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Compiled files
+*.o
+*.msg
+*.srv
