@@ -1,0 +1,4 @@
+Symlinking /home/leiyifei/land_ws/devel/share/stepvel/cmake/stepvelConfig.cmake
+Symlinking /home/leiyifei/land_ws/devel/share/stepvel/cmake/stepvelConfig-version.cmake
+Symlinking /home/leiyifei/land_ws/devel/lib/stepvel/stepvel_node
+Symlinking /home/leiyifei/land_ws/devel/lib/pkgconfig/stepvel.pc

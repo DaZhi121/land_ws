@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target catmin_distance[0m
+[35m[1mScanning dependencies of target velocityEstimator[0m
+[35m[1mScanning dependencies of target distanceEstimator[0m
+[35m[1mScanning dependencies of target catvehiclegazebo[0m
+[35m[1mScanning dependencies of target distanceEstimatorSteeringBased[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/distanceEstimatorSteeringBased.dir/src/distanceEstimatorSteeringBased.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/velocityEstimator.dir/src/velocityEstimator.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/distanceEstimator.dir/src/distanceEstimator.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/catvehiclegazebo.dir/src/cont.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/catmin_distance.dir/src/distance.cc.o[0m
+[ 60%] [32m[1mLinking CXX executable /home/leiyifei/land_ws/devel/.private/catvehicle/lib/catvehicle/distanceEstimator[0m
+[ 70%] [32m[1mLinking CXX executable /home/leiyifei/land_ws/devel/.private/catvehicle/lib/catvehicle/velocityEstimator[0m
+[ 70%] Built target distanceEstimator
+[ 70%] Built target velocityEstimator
+[ 80%] [32m[1mLinking CXX executable /home/leiyifei/land_ws/devel/.private/catvehicle/lib/catvehicle/distanceEstimatorSteeringBased[0m
+[ 80%] Built target distanceEstimatorSteeringBased
+[ 90%] [32m[1mLinking CXX shared library /home/leiyifei/land_ws/devel/.private/catvehicle/lib/libcatvehiclegazebo.so[0m
+[ 90%] Built target catvehiclegazebo
+[100%] [32m[1mLinking CXX shared library /home/leiyifei/land_ws/devel/.private/catvehicle/lib/libcatmin_distance.so[0m
+[100%] Built target catmin_distance

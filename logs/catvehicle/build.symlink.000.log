@@ -1,0 +1,9 @@
+Symlinking /home/leiyifei/land_ws/devel/share/catvehicle/cmake/catvehicleConfig-version.cmake
+Symlinking /home/leiyifei/land_ws/devel/share/catvehicle/cmake/catvehicleConfig.cmake
+Symlinking /home/leiyifei/land_ws/devel/lib/libcatmin_distance.so
+Symlinking /home/leiyifei/land_ws/devel/lib/libcatvehiclegazebo.so
+Symlinking /home/leiyifei/land_ws/devel/lib/python3/dist-packages/catvehicle/__init__.py
+Symlinking /home/leiyifei/land_ws/devel/lib/catvehicle/distanceEstimator
+Symlinking /home/leiyifei/land_ws/devel/lib/catvehicle/distanceEstimatorSteeringBased
+Symlinking /home/leiyifei/land_ws/devel/lib/catvehicle/velocityEstimator
+Symlinking /home/leiyifei/land_ws/devel/lib/pkgconfig/catvehicle.pc

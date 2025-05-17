@@ -1,0 +1,21 @@
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.cpp:8[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.cpp:[m[K In function ‘[01m[Kvoid mw_CreateTask(void (*)(), const char*, int, int, int, int)[m[K’:
+[01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.cpp:396:45:[m[K [01;35m[Kwarning: [m[Kinvalid conversion from ‘[01m[Kvoid*[m[K’ to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-fpermissive[m[K]
+  396 |     status = pthread_create(&thread, &attr, [01;35m[K(void *) taskHandler[m[K, NULL);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kvoid*[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.h:11[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.cpp:8[m[K:
+[01m[K/usr/include/pthread.h:200:15:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kint pthread_create(pthread_t*, const pthread_attr_t*, void* (*)(void*), void*)[m[K’
+  200 |       [01;36m[Kvoid *(*__start_routine) (void *)[m[K,
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/ert_main.cpp:26[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition

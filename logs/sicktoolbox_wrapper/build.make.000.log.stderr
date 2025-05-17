@@ -1,0 +1,1412 @@
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:23[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/print_scans.cpp:39[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:87:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   87 |     void _startListening( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:90:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   90 |     void _stopListening( )  [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:96:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   96 |     void _setBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:99:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   99 |     void _setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:103:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  103 |       [01;35m[Kthrow[m[K( SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:106:95:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  106 |     void _recvMessage( SICK_MSG_CLASS &sick_message, const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:112:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  112 |          const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:23[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/print_scans.cpp:39[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:124:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  124 |        const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException);
+      |                                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:162:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  162 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_startListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:190:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  190 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_stopListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:218:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  218 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setBlockingIO( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+      |                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:237:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  237 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException ) {
+      |                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:259:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  259 |     [01;35m[Kthrow[m[K( SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:302:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  302 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:340:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  340 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:403:12:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  403 |            [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+      |            [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:25[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/print_scans.cpp:39[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:37:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   37 |     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:40:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   40 |     void SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:43:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   43 |     void StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:46:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   46 |     bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:49:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   49 |     void StopMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                         [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:52:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   52 |     void AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:58:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   58 |     void ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:61:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   61 |     ~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:69:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   69 |     void _readBytes( uint8_t * const dest_buffer, const int num_bytes_to_read, const unsigned int timeout_value = 0 ) const [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:25[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/print_scans.cpp:39[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:92:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   92 |     void _acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:95:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   95 |     void _releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:107:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  107 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException ) :
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:127:109:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  127 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:160:108:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  160 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:181:123:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  181 |   bool SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:227:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  227 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:263:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  263 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:276:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  276 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:289:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  289 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:307:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  307 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:320:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  320 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:338:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  338 |     [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/print_scans.cpp:39[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:42:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   42 |     void GetNextMessageFromDataStream( SickLMS2xxMessage &sick_message ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                                                          [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/print_scans.cpp:39[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:518:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  518 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:521:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  521 |     void Uninitialize( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:527:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  527 |     sick_lms_2xx_type_t GetSickType( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                              [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:530:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  530 |     double GetSickScanAngle( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:533:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  533 |     double GetSickScanResolution( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:537:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  537 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:540:79:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  540 |     SickLMS2xx::sick_lms_2xx_measuring_units_t GetSickMeasuringUnits( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:544:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  544 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:547:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  547 |     sick_lms_2xx_sensitivity_t GetSickSensitivity( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:551:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  551 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:554:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  554 |     sick_lms_2xx_peak_threshold_t GetSickPeakThreshold( ) const [01;35m[Kthrow[m[K( SickConfigException );;
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:558:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  558 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:561:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  561 |     sick_lms_2xx_measuring_mode_t GetSickMeasuringMode( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:564:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  564 |     sick_lms_2xx_operating_mode_t GetSickOperatingMode( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:568:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  568 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:571:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  571 |     uint8_t GetSickAvailability( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:575:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  575 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:584:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  584 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:595:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  595 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:606:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  606 |          unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:616:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  616 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:623:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  623 |        unsigned int * const sick_real_time_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:632:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  632 |         unsigned int * const sick_real_time_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:635:44:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  635 |     sick_lms_2xx_status_t GetSickStatus( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:638:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  638 |     bool IsSickLMS2xxFast( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:641:23:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  641 |     void ResetSick( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:756:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  756 |     void _setupConnection() [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:757:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  757 |     void _setupConnection(const uint32_t delay ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:760:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  760 |     void _teardownConnection( ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:766:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  766 |       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:773:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  773 |       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:776:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  776 |     void _flushTerminalBuffer( ) [01;35m[Kthrow[m[K ( SickThreadException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:779:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  779 |     void _setSessionBaud( const sick_lms_2xx_baud_t baud_rate ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:782:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  782 |     bool _testSickBaud( const sick_lms_2xx_baud_t baud_rate ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:785:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  785 |     void _setTerminalBaud( const sick_lms_2xx_baud_t sick_baud ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:788:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  788 |     void _getSickType( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:791:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  791 |     void _getSickConfig( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:794:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  794 |     void _setSickConfig( const sick_lms_2xx_device_config_t &sick_config ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:797:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  797 |     void _getSickStatus( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:802:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  802 |     uint8_t * const error_num_buffer = NULL ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:806:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  806 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:810:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  810 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:814:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  814 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:818:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  818 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:822:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  822 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:826:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  826 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:830:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  830 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:834:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  834 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:838:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  838 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:842:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  842 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:23[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/log_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:87:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   87 |     void _startListening( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:90:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   90 |     void _stopListening( )  [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:96:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   96 |     void _setBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:99:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   99 |     void _setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:103:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  103 |       [01;35m[Kthrow[m[K( SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:106:95:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  106 |     void _recvMessage( SICK_MSG_CLASS &sick_message, const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:112:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  112 |          const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:23[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/log_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:124:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  124 |        const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException);
+      |                                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:162:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  162 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_startListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:190:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  190 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_stopListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:218:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  218 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setBlockingIO( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+      |                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:237:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  237 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException ) {
+      |                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:259:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  259 |     [01;35m[Kthrow[m[K( SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:302:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  302 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:340:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  340 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:403:12:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  403 |            [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+      |            [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:25[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/log_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:37:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   37 |     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:40:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   40 |     void SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:43:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   43 |     void StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:46:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   46 |     bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:49:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   49 |     void StopMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                         [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:52:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   52 |     void AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:58:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   58 |     void ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:61:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   61 |     ~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:69:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   69 |     void _readBytes( uint8_t * const dest_buffer, const int num_bytes_to_read, const unsigned int timeout_value = 0 ) const [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:25[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/log_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:92:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   92 |     void _acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:95:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   95 |     void _releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:107:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  107 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException ) :
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:127:109:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  127 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:160:108:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  160 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:181:123:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  181 |   bool SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:227:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  227 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:263:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  263 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:276:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  276 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:289:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  289 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:307:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  307 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:320:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  320 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:338:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  338 |     [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/log_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:42:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   42 |     void GetNextMessageFromDataStream( SickLMS2xxMessage &sick_message ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                                                          [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:23[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/time_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:87:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   87 |     void _startListening( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:90:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   90 |     void _stopListening( )  [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:96:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   96 |     void _setBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                  [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/log_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:518:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  518 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:99:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   99 |     void _setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:103:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  103 |       [01;35m[Kthrow[m[K( SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:521:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  521 |     void Uninitialize( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:106:95:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  106 |     void _recvMessage( SICK_MSG_CLASS &sick_message, const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:112:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  112 |          const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                   [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:527:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  527 |     sick_lms_2xx_type_t GetSickType( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                              [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:530:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  530 |     double GetSickScanAngle( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:533:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  533 |     double GetSickScanResolution( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                           [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:23[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/time_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:124:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  124 |        const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException);
+      |                                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:537:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  537 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:540:79:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  540 |     SickLMS2xx::sick_lms_2xx_measuring_units_t GetSickMeasuringUnits( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:544:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  544 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:547:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  547 |     sick_lms_2xx_sensitivity_t GetSickSensitivity( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:551:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  551 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:554:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  554 |     sick_lms_2xx_peak_threshold_t GetSickPeakThreshold( ) const [01;35m[Kthrow[m[K( SickConfigException );;
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:558:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  558 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:561:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  561 |     sick_lms_2xx_measuring_mode_t GetSickMeasuringMode( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:564:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  564 |     sick_lms_2xx_operating_mode_t GetSickOperatingMode( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:568:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  568 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:571:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  571 |     uint8_t GetSickAvailability( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:575:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  575 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:584:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  584 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:595:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  595 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:606:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  606 |          unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:616:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  616 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:623:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  623 |        unsigned int * const sick_real_time_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:632:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  632 |         unsigned int * const sick_real_time_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:635:44:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  635 |     sick_lms_2xx_status_t GetSickStatus( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:638:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  638 |     bool IsSickLMS2xxFast( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:641:23:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  641 |     void ResetSick( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:756:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  756 |     void _setupConnection() [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:757:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  757 |     void _setupConnection(const uint32_t delay ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:760:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  760 |     void _teardownConnection( ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:766:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  766 |       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:773:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  773 |       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:776:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  776 |     void _flushTerminalBuffer( ) [01;35m[Kthrow[m[K ( SickThreadException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:779:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  779 |     void _setSessionBaud( const sick_lms_2xx_baud_t baud_rate ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:782:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  782 |     bool _testSickBaud( const sick_lms_2xx_baud_t baud_rate ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:785:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  785 |     void _setTerminalBaud( const sick_lms_2xx_baud_t sick_baud ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:788:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  788 |     void _getSickType( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:791:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  791 |     void _getSickConfig( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:162:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  162 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_startListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:794:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  794 |     void _setSickConfig( const sick_lms_2xx_device_config_t &sick_config ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:797:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  797 |     void _getSickStatus( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:802:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  802 |     uint8_t * const error_num_buffer = NULL ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:806:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  806 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:810:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  810 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:814:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  814 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:818:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  818 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:822:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  822 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:826:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  826 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:830:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  830 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:834:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  834 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:838:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  838 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:842:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  842 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:190:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  190 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_stopListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:218:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  218 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setBlockingIO( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+      |                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:237:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  237 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException ) {
+      |                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:259:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  259 |     [01;35m[Kthrow[m[K( SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:302:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  302 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:340:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  340 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:403:12:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  403 |            [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+      |            [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:25[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/time_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:37:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   37 |     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:40:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   40 |     void SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:43:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   43 |     void StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:46:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   46 |     bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:49:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   49 |     void StopMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                         [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:52:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   52 |     void AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:58:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   58 |     void ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:61:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   61 |     ~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:69:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   69 |     void _readBytes( uint8_t * const dest_buffer, const int num_bytes_to_read, const unsigned int timeout_value = 0 ) const [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:25[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/time_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:92:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   92 |     void _acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:95:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   95 |     void _releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:107:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  107 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException ) :
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:127:109:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  127 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:160:108:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  160 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:181:123:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  181 |   bool SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:227:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  227 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:263:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  263 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:276:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  276 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:289:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  289 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:307:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  307 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:320:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  320 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:338:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  338 |     [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/time_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:42:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   42 |     void GetNextMessageFromDataStream( SickLMS2xxMessage &sick_message ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                                                          [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/standalone/time_scans.cpp:37[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:518:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  518 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:521:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  521 |     void Uninitialize( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:527:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  527 |     sick_lms_2xx_type_t GetSickType( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                              [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:530:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  530 |     double GetSickScanAngle( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:533:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  533 |     double GetSickScanResolution( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:537:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  537 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:540:79:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  540 |     SickLMS2xx::sick_lms_2xx_measuring_units_t GetSickMeasuringUnits( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:544:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  544 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:547:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  547 |     sick_lms_2xx_sensitivity_t GetSickSensitivity( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:551:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  551 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:554:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  554 |     sick_lms_2xx_peak_threshold_t GetSickPeakThreshold( ) const [01;35m[Kthrow[m[K( SickConfigException );;
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:558:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  558 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:561:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  561 |     sick_lms_2xx_measuring_mode_t GetSickMeasuringMode( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:564:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  564 |     sick_lms_2xx_operating_mode_t GetSickOperatingMode( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:568:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  568 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:571:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  571 |     uint8_t GetSickAvailability( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:575:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  575 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:584:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  584 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:595:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  595 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:606:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  606 |          unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:616:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  616 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:623:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  623 |        unsigned int * const sick_real_time_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:632:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  632 |         unsigned int * const sick_real_time_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:635:44:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  635 |     sick_lms_2xx_status_t GetSickStatus( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:638:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  638 |     bool IsSickLMS2xxFast( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:641:23:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  641 |     void ResetSick( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:756:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  756 |     void _setupConnection() [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:757:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  757 |     void _setupConnection(const uint32_t delay ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:760:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  760 |     void _teardownConnection( ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:766:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  766 |       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:773:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  773 |       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:776:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  776 |     void _flushTerminalBuffer( ) [01;35m[Kthrow[m[K ( SickThreadException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:779:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  779 |     void _setSessionBaud( const sick_lms_2xx_baud_t baud_rate ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:782:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  782 |     bool _testSickBaud( const sick_lms_2xx_baud_t baud_rate ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:785:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  785 |     void _setTerminalBaud( const sick_lms_2xx_baud_t sick_baud ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:788:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  788 |     void _getSickType( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:791:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  791 |     void _getSickConfig( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:794:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  794 |     void _setSickConfig( const sick_lms_2xx_device_config_t &sick_config ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:797:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  797 |     void _getSickStatus( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:802:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  802 |     uint8_t * const error_num_buffer = NULL ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:806:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  806 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:810:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  810 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:814:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  814 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:818:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  818 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:822:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  822 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:826:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  826 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:830:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  830 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:834:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  834 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:838:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  838 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:842:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  842 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:40[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sickld/sickld.cpp:11[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:87:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   87 |     void _startListening( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:90:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   90 |     void _stopListening( )  [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:96:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   96 |     void _setBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:99:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   99 |     void _setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:103:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  103 |       [01;35m[Kthrow[m[K( SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:106:95:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  106 |     void _recvMessage( SICK_MSG_CLASS &sick_message, const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:112:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  112 |          const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:40[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sickld/sickld.cpp:11[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:124:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  124 |        const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException);
+      |                                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:162:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  162 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_startListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:190:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  190 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_stopListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:218:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  218 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setBlockingIO( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+      |                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:237:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  237 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException ) {
+      |                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:259:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  259 |     [01;35m[Kthrow[m[K( SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:302:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  302 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:340:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  340 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:403:12:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  403 |            [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+      |            [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLDBufferMonitor.hh:24[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:41[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sickld/sickld.cpp:11[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:37:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   37 |     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:40:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   40 |     void SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:43:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   43 |     void StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:46:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   46 |     bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:49:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   49 |     void StopMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                         [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:52:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   52 |     void AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:58:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   58 |     void ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:61:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   61 |     ~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:69:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   69 |     void _readBytes( uint8_t * const dest_buffer, const int num_bytes_to_read, const unsigned int timeout_value = 0 ) const [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLDBufferMonitor.hh:24[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:41[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sickld/sickld.cpp:11[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:92:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   92 |     void _acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:95:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   95 |     void _releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:107:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  107 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException ) :
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:127:109:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  127 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:160:108:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  160 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:181:123:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  181 |   bool SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:227:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  227 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:263:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  263 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:276:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  276 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:289:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  289 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:307:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  307 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:320:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  320 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:338:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  338 |     [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:41[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sickld/sickld.cpp:11[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLDBufferMonitor.hh:41:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   41 |     void GetNextMessageFromDataStream( SickLDMessage &sick_message ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                                                      [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sickld/sickld.cpp:11[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:373:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  373 |     void Initialize( )  [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException, SickErrorException );
+      |                         [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:377:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  377 |       [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:382:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  382 |       [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickConfigException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:386:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  386 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException, SickConfigException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:390:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  390 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException, SickConfigException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:394:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  394 |       [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException, SickErrorException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:398:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  398 |       [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException, SickErrorException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:401:55:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  401 |     void GetSickSignals( uint8_t &sick_signal_flags ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException );
+      |                                                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:404:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  404 |     void EnableNearfieldSuppression( ) [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:407:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  407 |     void DisableNearfieldSuppression( ) [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |                                         [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:420:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  420 |       [01;35m[Kthrow[m[K( SickErrorException, SickIOException, SickTimeoutException, SickConfigException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:424:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  424 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:428:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  428 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:432:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  432 |       [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickConfigException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:440:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  440 |       [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickConfigException, SickErrorException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:446:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  446 |       [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickConfigException, SickErrorException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:450:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  450 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException, SickConfigException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:540:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  540 |     void Uninitialize( ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException, SickErrorException, SickThreadException );
+      |                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:584:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  584 |     void _setupConnection( ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException );
+      |                              [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:587:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  587 |     void _syncDriverWithSick( ) [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException, SickErrorException );
+      |                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:592:8:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  592 |        [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException, SickConfigException );
+      |        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:596:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  596 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:599:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  599 |     void _setSickSensorModeToIdle( ) [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:602:40:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  602 |     void _setSickSensorModeToRotate( ) [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:605:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  605 |     void _setSickSensorModeToMeasure( ) [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |                                         [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:609:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  609 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:613:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  613 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException, SickConfigException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:619:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  619 |     void _cancelSickScanProfiles( ) [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:623:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  623 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:626:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  626 |     void _getSickIdentity( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                              [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:629:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  629 |     void _getSickStatus( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:633:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  633 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:636:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  636 |     void _getSickGlobalConfig( ) [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:639:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  639 |     void _getSickEthernetConfig( ) [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:642:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  642 |     void _getSickSectorConfig( ) [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:646:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  646 |       [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:649:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  649 |     void _getSensorPartNumber( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:652:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  652 |     void _getSensorName( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:655:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  655 |     void _getSensorVersion( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:658:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  658 |     void _getSensorSerialNumber( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:661:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  661 |     void _getSensorEDMSerialNumber( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:664:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  664 |     void _getFirmwarePartNumber( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:667:30:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  667 |     void _getFirmwareName( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                              [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:670:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  670 |     void _getFirmwareVersion( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:673:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  673 |     void _getApplicationSoftwarePartNumber( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:676:41:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  676 |     void _getApplicationSoftwareName( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                                         [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:679:44:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  679 |     void _getApplicationSoftwareVersion( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException );
+      |                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:686:8:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  686 |        [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickConfigException, SickErrorException );
+      |        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:692:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  692 |       [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickConfigException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:697:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  697 |       [01;35m[Kthrow[m[K( SickErrorException, SickTimeoutException, SickIOException, SickConfigException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:701:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  701 |       [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException, SickErrorException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:706:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  706 |       [01;35m[Kthrow[m[K( SickIOException, SickTimeoutException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:709:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  709 |     void _flushTCPRecvBuffer( ) [01;35m[Kthrow[m[K ( SickIOException, SickThreadException );
+      |                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLD.hh:712:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  712 |     void _teardownConnection( ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                 [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:23[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:36[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:87:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   87 |     void _startListening( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:90:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   90 |     void _stopListening( )  [01;35m[Kthrow[m[K( SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:96:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   96 |     void _setBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:99:37:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   99 |     void _setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException );
+      |                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:103:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  103 |       [01;35m[Kthrow[m[K( SickIOException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:106:95:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  106 |     void _recvMessage( SICK_MSG_CLASS &sick_message, const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:112:51:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  112 |          const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException );
+      |                                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:23[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:36[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:124:39:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  124 |        const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException);
+      |                                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:162:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  162 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_startListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:190:75:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  190 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_stopListening( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:218:81:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  218 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setBlockingIO( ) const [01;35m[Kthrow[m[K( SickIOException ) {
+      |                                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:237:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  237 |   void SickLIDAR< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_setNonBlockingIO( ) const [01;35m[Kthrow[m[K ( SickIOException ) {
+      |                                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:259:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  259 |     [01;35m[Kthrow[m[K( SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:302:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  302 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K ( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:340:56:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  340 |               const unsigned int timeout_value ) const [01;35m[Kthrow[m[K( SickTimeoutException ) {
+      |                                                        [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLIDAR.hh:403:12:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  403 |            [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException ) {
+      |            [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:25[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:36[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:37:70:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   37 |     SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:40:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   40 |     void SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:43:53:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   43 |     void StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:46:68:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   46 |     bool GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:49:25:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   49 |     void StopMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                         [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:52:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   52 |     void AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:58:31:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   58 |     void ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:61:27:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   61 |     ~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:69:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   69 |     void _readBytes( uint8_t * const dest_buffer, const int num_bytes_to_read, const unsigned int timeout_value = 0 ) const [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException );
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:25[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:36[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:92:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   92 |     void _acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:95:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   95 |     void _releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:107:125:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  107 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SickBufferMonitor( SICK_MONITOR_CLASS * const monitor_instance ) [01;35m[Kthrow[m[K( SickThreadException ) :
+      |                                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:127:109:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  127 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::SetDataStream( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:160:108:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  160 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StartMonitor( const unsigned int sick_fd ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:181:123:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  181 |   bool SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::GetNextMessageFromMonitor( SICK_MSG_CLASS &sick_message ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:227:80:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  227 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::StopMonitor( ) [01;35m[Kthrow[m[K ( SickThreadException ) {
+      |                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:263:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  263 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::AcquireDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:276:86:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  276 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::ReleaseDataStream( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:289:82:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  289 |   SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::~SickBufferMonitor( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:307:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  307 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_acquireMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:320:93:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  320 |   void SickBufferMonitor< SICK_MONITOR_CLASS, SICK_MSG_CLASS >::_releaseMessageContainer( ) [01;35m[Kthrow[m[K( SickThreadException ) {
+      |                                                                                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickBufferMonitor.hh:338:5:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  338 |     [01;35m[Kthrow[m[K ( SickTimeoutException, SickIOException ) {
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:26[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:36[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xxBufferMonitor.hh:42:74:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+   42 |     void GetNextMessageFromDataStream( SickLMS2xxMessage &sick_message ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                                                          [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox_wrapper/ros/sicklms/sicklms.cpp:36[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:518:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  518 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:521:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  521 |     void Uninitialize( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:527:46:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  527 |     sick_lms_2xx_type_t GetSickType( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                              [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:530:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  530 |     double GetSickScanAngle( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:533:43:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  533 |     double GetSickScanResolution( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:537:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  537 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:540:79:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  540 |     SickLMS2xx::sick_lms_2xx_measuring_units_t GetSickMeasuringUnits( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:544:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  544 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:547:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  547 |     sick_lms_2xx_sensitivity_t GetSickSensitivity( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:551:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  551 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:554:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  554 |     sick_lms_2xx_peak_threshold_t GetSickPeakThreshold( ) const [01;35m[Kthrow[m[K( SickConfigException );;
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:558:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  558 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:561:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  561 |     sick_lms_2xx_measuring_mode_t GetSickMeasuringMode( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:564:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  564 |     sick_lms_2xx_operating_mode_t GetSickOperatingMode( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:568:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  568 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:571:42:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  571 |     uint8_t GetSickAvailability( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:575:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  575 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:584:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  584 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:595:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  595 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:606:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  606 |          unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:616:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  616 |         unsigned int * const sick_real_time_scan_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:623:59:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  623 |        unsigned int * const sick_real_time_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:632:60:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  632 |         unsigned int * const sick_real_time_index = NULL ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:635:44:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  635 |     sick_lms_2xx_status_t GetSickStatus( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:638:36:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  638 |     bool IsSickLMS2xxFast( ) const [01;35m[Kthrow[m[K( SickConfigException );
+      |                                    [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:641:23:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  641 |     void ResetSick( ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:756:29:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  756 |     void _setupConnection() [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:757:50:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  757 |     void _setupConnection(const uint32_t delay ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:760:33:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  760 |     void _teardownConnection( ) [01;35m[Kthrow[m[K( SickIOException );
+      |                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:766:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  766 |       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:773:38:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  773 |       const unsigned int num_tries ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                      [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:776:34:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  776 |     void _flushTerminalBuffer( ) [01;35m[Kthrow[m[K ( SickThreadException );
+      |                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:779:65:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  779 |     void _setSessionBaud( const sick_lms_2xx_baud_t baud_rate ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException, SickTimeoutException );
+      |                                                                 [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:782:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  782 |     bool _testSickBaud( const sick_lms_2xx_baud_t baud_rate ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:785:66:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  785 |     void _setTerminalBaud( const sick_lms_2xx_baud_t sick_baud ) [01;35m[Kthrow[m[K( SickIOException, SickThreadException );
+      |                                                                  [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:788:26:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  788 |     void _getSickType( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                          [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:791:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  791 |     void _getSickConfig( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:794:76:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  794 |     void _setSickConfig( const sick_lms_2xx_device_config_t &sick_config ) [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException );
+      |                                                                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:797:28:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  797 |     void _getSickStatus( ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                            [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:802:47:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  802 |     uint8_t * const error_num_buffer = NULL ) [01;35m[Kthrow[m[K( SickTimeoutException, SickIOException, SickThreadException );
+      |                                               [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:806:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  806 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:810:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  810 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:814:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  814 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:818:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  818 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:822:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  822 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:826:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  826 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:830:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  830 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:834:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  834 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:838:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  838 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/sicktoolbox/include/sicktoolbox/SickLMS2xx.hh:842:7:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  842 |       [01;35m[Kthrow[m[K( SickConfigException, SickTimeoutException, SickIOException, SickThreadException);
+      |       [01;35m[K^~~~~[m[K

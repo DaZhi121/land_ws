@@ -1,0 +1,47 @@
+<launch>
+    <!-- 模式选择参数 -->
+    <arg name="mode" default="simulation" 
+         doc="运行模式选择: simulation(仿真)/experiment(实验)"/>
+    
+    <!-- 公共参数加载 -->
+    <rosparam command="load" 
+              file="$(find lstm_land)/params/observation_params.yaml"/>
+    
+    <!-- 动态话题重映射 -->
+    <!-- UWB话题 -->
+    <arg name="uwb_topic" if="$(eval mode=='simulation')" default="/uwb_data"/>
+    <arg name="uwb_topic" unless="$(eval mode=='simulation')" default="/uwb_data"/>
+
+    <!-- UGV话题 -->
+    <arg name="ugv_topic" if="$(eval mode=='simulation')" default="/ugv_0/odom"/>
+    <arg name="ugv_topic" unless="$(eval mode=='simulation')" default="/uav4/mavros/local_position/odom"/>
+
+    <!-- 高度计话题 -->
+    <arg name="range_topic" if="$(eval mode=='simulation')" default="/range"/>
+    <arg name="range_topic" unless="$(eval mode=='simulation')" default="/mavros/distance_sensor/hrlv_ez4_pub"/>
+
+    <!-- 无人机速度话题 -->
+    <arg name="uav_topic" if="$(eval mode=='simulation')" default="/uav0/mavros/local_position/velocity_local"/>
+    <arg name="uav_topic" unless="$(eval mode=='simulation')" default="/mavros/local_position/velocity_local"/>
+    
+    <!-- 观测节点（通用） -->
+    <node pkg="lstm_land" 
+          type="observation_node.py" 
+          name="observation_generator"
+          output="screen">
+        <!-- 输入重映射 -->
+        <remap from="/uwb_data" to="$(arg uwb_topic)"/>
+        <remap from="/ugv_0/odom" to="$(arg ugv_topic)"/>
+        <remap from="/range" to="$(arg range_topic)"/>
+        <remap from="/mavros/local_position/velocity_local" to="$(arg uav_topic)"/>
+    </node>
+    
+    <!-- 模式选择逻辑 -->
+    <group if="$(eval mode=='simulation')">
+        <include file="$(find uwb_simulator)/launch/uwb_monitor.launch"/>
+    </group>
+    
+    <group unless="$(eval mode=='simulation')">
+        <include file="$(find lstm_land)/launch/transfer.launch"/>
+    </group>
+</launch>

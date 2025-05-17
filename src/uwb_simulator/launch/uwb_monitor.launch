@@ -1,0 +1,26 @@
+<launch>
+    <!-- 参数配置，允许启动时覆盖 -->
+    <arg name="ugv_namespace" default="ugv_0" />
+    <arg name="uav_namespace" default="uav0" />
+    <arg name="uwb_installation_offset" default="[0.2, 0.0, -0.1]" />
+    <arg name="uav_initial_offset" default="[3.0, 0.0, 0.1]" />
+    <arg name="noise_sigma" default="0.0" />
+=
+    <!-- 启动UWB模拟监控节点 -->
+    <node pkg="uwb_simulator" type="uwb_monitor.py" name="uwb_monitor" output="screen">
+        <!-- UGV的命名空间，默认ugv_0 -->
+        <param name="ugv_namespace" value="$(arg ugv_namespace)" />
+        
+        <!-- UAV的命名空间，默认uav1 -->
+        <param name="uav_namespace" value="$(arg uav_namespace)" />
+        
+        <!-- UWB模块安装偏移量[x,y,z]，YAML列表格式 -->
+        <param name="uwb_installation_offset" type="yaml" value="$(arg uwb_installation_offset)" />
+        
+        <!-- 无人机初始位置偏移量[x,y,z]，YAML列表格式 -->
+        <param name="uav_initial_offset" type="yaml" value="$(arg uav_initial_offset)" />
+        
+        <!-- 距离测量噪声标准差，单位米 -->
+        <param name="noise_sigma" type="double" value="$(arg noise_sigma)" />
+    </node>
+</launch>

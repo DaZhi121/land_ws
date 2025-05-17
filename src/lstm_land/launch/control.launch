@@ -1,0 +1,33 @@
+<launch>
+    <!-- 基础参数配置 -->
+    <arg name="simulation_mode" default="true" 
+         doc="是否仿真模式 (true=仿真, false=实验)"/>
+    <arg name="control_rate" default="20" 
+         doc="控制频率 (Hz)"/>
+    
+    <!-- 控制节点 -->
+    <node pkg="lstm_land" 
+          type="uav_control.py" 
+          name="hybrid_controller"
+          output="screen">
+        
+        <!-- 核心参数 -->
+        <param name="simulation_mode" value="$(arg simulation_mode)"/>
+        <param name="publish_rate" value="$(arg control_rate)"/>
+        
+        <!-- 目标位置参数 -->
+        <param name="target_position/x" value="5.0"/>
+        <param name="target_position/y" value="3.0"/>
+        <param name="target_position/z" value="10.0"/>
+        
+        <!-- 控制参数 -->
+        <param name="arrival_tolerance" value="0.2"/>
+        <param name="enable_velocity_after_reach" value="true"/>
+        
+        <!-- 必要话题重映射 -->
+        <remap from="/uav0/mavros/setpoint_position/local" 
+               to="/uav0/mavros/setpoint_position/local"/>
+        <remap from="/uav0/mavros/setpoint_velocity/cmd_vel" 
+               to="/uav0/mavros/setpoint_velocity/cmd_vel"/>
+    </node>
+</launch>

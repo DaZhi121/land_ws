@@ -1,0 +1,4 @@
+Symlinking /home/leiyifei/land_ws/devel/share/cmdvel2gazebo/cmake/cmdvel2gazeboConfig.cmake
+Symlinking /home/leiyifei/land_ws/devel/share/cmdvel2gazebo/cmake/cmdvel2gazeboConfig-version.cmake
+Symlinking /home/leiyifei/land_ws/devel/lib/cmdvel2gazebo/cmdvel2gazebo_node
+Symlinking /home/leiyifei/land_ws/devel/lib/pkgconfig/cmdvel2gazebo.pc

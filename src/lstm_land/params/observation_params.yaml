@@ -1,0 +1,2 @@
+observation_generator:
+  target_local: [0.5, 0.5]  # X, Y坐标

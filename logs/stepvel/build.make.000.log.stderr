@@ -1,0 +1,34 @@
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/ert_main.cpp:7[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.cpp:8[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.cpp:[m[K In function ‘[01m[Kvoid mw_CreateTask(void (*)(), const char*, int, int, int, int)[m[K’:
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.cpp:396:45:[m[K [01;35m[Kwarning: [m[Kinvalid conversion from ‘[01m[Kvoid*[m[K’ to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-fpermissive[m[K]
+  396 |     status = pthread_create(&thread, &attr, [01;35m[K(void *) taskHandler[m[K, NULL);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kvoid*[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.h:11[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.cpp:8[m[K:
+[01m[K/usr/include/pthread.h:200:15:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kint pthread_create(pthread_t*, const pthread_attr_t*, void* (*)(void*), void*)[m[K’
+  200 |       [01;36m[Kvoid *(*__start_routine) (void *)[m[K,
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic.h:10[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_initialize.h:5[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/stepvel.h:30[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/stepvel.cpp:21[m[K:
+/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic_param.h: In instantiation of ‘[01m[Kbool param_parser::getScalar(const XmlRpc::XmlRpcValue&, T&) [with T = double][m[K’:
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic_param.h:182:47:[m[K   required from ‘[01m[Kuint8_t SimulinkParameterGetter<CppParamType, ROSCppParamType>::get_parameter(CppParamType*) [with CppParamType = double; ROSCppParamType = double; uint8_t = unsigned char][m[K’
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/stepvel.cpp:56:43:[m[K   required from here
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic_param.h:31:48:[m[K [01;35m[Kwarning: [m[K‘[01m[KgetXmlRpcType[m[K’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [[01;35m[K-fpermissive[m[K]
+   31 |         if (xmlValue.getType() != [01;35m[KgetXmlRpcType(paramValue)[m[K)
+      |                                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic_param.h:54:31:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class T> XmlRpc::XmlRpcValue::Type param_parser::getXmlRpcType(const T&)[m[K’ declared here, later in the translation unit
+   54 |     XmlRpc::XmlRpcValue::Type [01;36m[KgetXmlRpcType[m[K(const T& paramValue)
+      |                               [01;36m[K^~~~~~~~~~~~~[m[K

@@ -1,0 +1,248 @@
+/usr/bin/cmake -S/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -B/home/leiyifei/land_ws/build/cmdvel2gazebo --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+[  0%] Built target roscpp_generate_messages_eus
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+[  0%] Built target geometry_msgs_generate_messages_lisp
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[  0%] Built target rosgraph_msgs_generate_messages_py
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/build
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/build
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+[  0%] Built target roscpp_generate_messages_py
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+/usr/bin/make -f CMakeFiles/cmdvel2gazebo_node.dir/build.make CMakeFiles/cmdvel2gazebo_node.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+cd /home/leiyifei/land_ws/build/cmdvel2gazebo && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles/cmdvel2gazebo_node.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target cmdvel2gazebo_node[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/make -f CMakeFiles/cmdvel2gazebo_node.dir/build.make CMakeFiles/cmdvel2gazebo_node.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[  9%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/ert_main.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/ert_main.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/ert_main.cpp
+[ 18%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/cmdvel2gazebo.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/cmdvel2gazebo.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/cmdvel2gazebo.cpp
+[ 27%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/cmdvel2gazebo_data.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/cmdvel2gazebo_data.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/cmdvel2gazebo_data.cpp
+[ 36%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/rtGetInf.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/rtGetInf.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/rtGetInf.cpp
+[ 45%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/rtGetNaN.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/rtGetNaN.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/rtGetNaN.cpp
+[ 54%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/rt_nonfinite.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/rt_nonfinite.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/rt_nonfinite.cpp
+[ 63%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/linuxinitialize.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/linuxinitialize.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/linuxinitialize.cpp
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/linuxinitialize.cpp:8[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[ 72%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/slros_busmsg_conversion.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/slros_busmsg_conversion.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/slros_busmsg_conversion.cpp
+[ 81%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/slros_initialize.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/slros_initialize.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/slros_initialize.cpp
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/ert_main.cpp:26[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[ 90%] [32mBuilding CXX object CMakeFiles/cmdvel2gazebo_node.dir/slros_generic_param.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=cmdvel2gazebo -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=2 -DNUMST=2 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"cmdvel2gazebo\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=1 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/include -I/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/cmdvel2gazebo_node.dir/slros_generic_param.cpp.o -c /home/leiyifei/land_ws/src/ugv/cmdvel2gazebo/slros_generic_param.cpp
+[100%] [32m[1mLinking CXX executable /home/leiyifei/land_ws/devel/.private/cmdvel2gazebo/lib/cmdvel2gazebo/cmdvel2gazebo_node[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmdvel2gazebo_node.dir/link.txt --verbose=1
+/usr/bin/c++   -fpermissive  -rdynamic CMakeFiles/cmdvel2gazebo_node.dir/ert_main.cpp.o CMakeFiles/cmdvel2gazebo_node.dir/cmdvel2gazebo.cpp.o CMakeFiles/cmdvel2gazebo_node.dir/cmdvel2gazebo_data.cpp.o CMakeFiles/cmdvel2gazebo_node.dir/rtGetInf.cpp.o CMakeFiles/cmdvel2gazebo_node.dir/rtGetNaN.cpp.o CMakeFiles/cmdvel2gazebo_node.dir/rt_nonfinite.cpp.o CMakeFiles/cmdvel2gazebo_node.dir/linuxinitialize.cpp.o CMakeFiles/cmdvel2gazebo_node.dir/slros_busmsg_conversion.cpp.o CMakeFiles/cmdvel2gazebo_node.dir/slros_initialize.cpp.o CMakeFiles/cmdvel2gazebo_node.dir/slros_generic_param.cpp.o  -o /home/leiyifei/land_ws/devel/.private/cmdvel2gazebo/lib/cmdvel2gazebo/cmdvel2gazebo_node  -Wl,-rpath,/opt/ros/noetic/lib /opt/ros/noetic/lib/libroscpp.so -lpthread /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0 /opt/ros/noetic/lib/librosconsole.so /opt/ros/noetic/lib/librosconsole_log4cxx.so /opt/ros/noetic/lib/librosconsole_backend_interface.so -llog4cxx /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0 /opt/ros/noetic/lib/libxmlrpcpp.so /opt/ros/noetic/lib/libroscpp_serialization.so /opt/ros/noetic/lib/librostime.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0 /opt/ros/noetic/lib/libcpp_common.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4 -lrt 
+make[2]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+[100%] Built target cmdvel2gazebo_node
+make[1]: 离开目录“/home/leiyifei/land_ws/build/cmdvel2gazebo”
+/usr/bin/cmake -E cmake_progress_start /home/leiyifei/land_ws/build/cmdvel2gazebo/CMakeFiles 0

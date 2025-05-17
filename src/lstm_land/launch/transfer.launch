@@ -1,0 +1,11 @@
+<launch>
+    <!-- 启动UWB数据处理节点 -->
+    <node pkg="lstm_land" type="uwb_transfer.py" name="uwb_processor" output="screen">
+        <!-- 节点顺序配置（可根据实际需求修改） -->
+        <param name="node_order" type="yaml" value="[7, 0, 2, 3]" />
+        
+        <!-- 可选调试参数 -->
+        <param name="verbose" type="bool" value="false" />
+    </node>
+
+</launch>

@@ -1,0 +1,16 @@
+<launch>
+    <arg name="model_path" default="$(find lstm_land)/models/drone_policy_a3_lstm_v2.onnx"/>
+    
+    <!-- 决策节点 -->
+    <node pkg="lstm_land" 
+          type="lstm_node.py" 
+          name="lstm_decision"
+          output="screen"
+          respawn="true">
+        <!-- 私有参数传递 -->
+        <param name="model_path" value="$(arg model_path)"/>
+    </node>
+
+    <!-- 观测节点 -->
+    <include file="$(find lstm_land)/launch/observation.launch"/>
+</launch>

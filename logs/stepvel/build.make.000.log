@@ -1,0 +1,266 @@
+/usr/bin/cmake -S/home/leiyifei/land_ws/src/ugv/stepvel -B/home/leiyifei/land_ws/build/stepvel --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/leiyifei/land_ws/build/stepvel/CMakeFiles /home/leiyifei/land_ws/build/stepvel/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[  0%] Built target roscpp_generate_messages_nodejs
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/build
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[  0%] Built target rosgraph_msgs_generate_messages_py
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/build
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[  0%] Built target roscpp_generate_messages_eus
+/usr/bin/make -f CMakeFiles/stepvel_node.dir/build.make CMakeFiles/stepvel_node.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+cd /home/leiyifei/land_ws/build/stepvel && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/src/ugv/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel /home/leiyifei/land_ws/build/stepvel/CMakeFiles/stepvel_node.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target stepvel_node[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/make -f CMakeFiles/stepvel_node.dir/build.make CMakeFiles/stepvel_node.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/stepvel”
+[ 12%] [32mBuilding CXX object CMakeFiles/stepvel_node.dir/ert_main.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMODEL=stepvel -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stepvel\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/stepvel/include -I/home/leiyifei/land_ws/src/ugv/stepvel -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/stepvel_node.dir/ert_main.cpp.o -c /home/leiyifei/land_ws/src/ugv/stepvel/ert_main.cpp
+[ 25%] [32mBuilding CXX object CMakeFiles/stepvel_node.dir/stepvel.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMODEL=stepvel -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stepvel\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/stepvel/include -I/home/leiyifei/land_ws/src/ugv/stepvel -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/stepvel_node.dir/stepvel.cpp.o -c /home/leiyifei/land_ws/src/ugv/stepvel/stepvel.cpp
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/ert_main.cpp:7[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[ 37%] [32mBuilding CXX object CMakeFiles/stepvel_node.dir/stepvel_data.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMODEL=stepvel -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stepvel\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/stepvel/include -I/home/leiyifei/land_ws/src/ugv/stepvel -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/stepvel_node.dir/stepvel_data.cpp.o -c /home/leiyifei/land_ws/src/ugv/stepvel/stepvel_data.cpp
+[ 50%] [32mBuilding CXX object CMakeFiles/stepvel_node.dir/slros_busmsg_conversion.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/stepvel_node.dir/slros_initialize.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/stepvel_node.dir/linuxinitialize.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMODEL=stepvel -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stepvel\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/stepvel/include -I/home/leiyifei/land_ws/src/ugv/stepvel -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/stepvel_node.dir/linuxinitialize.cpp.o -c /home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.cpp
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMODEL=stepvel -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stepvel\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/stepvel/include -I/home/leiyifei/land_ws/src/ugv/stepvel -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/stepvel_node.dir/slros_initialize.cpp.o -c /home/leiyifei/land_ws/src/ugv/stepvel/slros_initialize.cpp
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMODEL=stepvel -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stepvel\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/stepvel/include -I/home/leiyifei/land_ws/src/ugv/stepvel -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/stepvel_node.dir/slros_busmsg_conversion.cpp.o -c /home/leiyifei/land_ws/src/ugv/stepvel/slros_busmsg_conversion.cpp
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.cpp:8[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.cpp:[m[K In function ‘[01m[Kvoid mw_CreateTask(void (*)(), const char*, int, int, int, int)[m[K’:
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.cpp:396:45:[m[K [01;35m[Kwarning: [m[Kinvalid conversion from ‘[01m[Kvoid*[m[K’ to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-fpermissive[m[K]
+  396 |     status = pthread_create(&thread, &attr, [01;35m[K(void *) taskHandler[m[K, NULL);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kvoid*[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.h:11[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/linuxinitialize.cpp:8[m[K:
+[01m[K/usr/include/pthread.h:200:15:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kint pthread_create(pthread_t*, const pthread_attr_t*, void* (*)(void*), void*)[m[K’
+  200 |       [01;36m[Kvoid *(*__start_routine) (void *)[m[K,
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic.h:10[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_initialize.h:5[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/stepvel.h:30[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/stepvel/stepvel.cpp:21[m[K:
+/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic_param.h: In instantiation of ‘[01m[Kbool param_parser::getScalar(const XmlRpc::XmlRpcValue&, T&) [with T = double][m[K’:
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic_param.h:182:47:[m[K   required from ‘[01m[Kuint8_t SimulinkParameterGetter<CppParamType, ROSCppParamType>::get_parameter(CppParamType*) [with CppParamType = double; ROSCppParamType = double; uint8_t = unsigned char][m[K’
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/stepvel.cpp:56:43:[m[K   required from here
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic_param.h:31:48:[m[K [01;35m[Kwarning: [m[K‘[01m[KgetXmlRpcType[m[K’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [[01;35m[K-fpermissive[m[K]
+   31 |         if (xmlValue.getType() != [01;35m[KgetXmlRpcType(paramValue)[m[K)
+      |                                   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/leiyifei/land_ws/src/ugv/stepvel/slros_generic_param.h:54:31:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class T> XmlRpc::XmlRpcValue::Type param_parser::getXmlRpcType(const T&)[m[K’ declared here, later in the translation unit
+   54 |     XmlRpc::XmlRpcValue::Type [01;36m[KgetXmlRpcType[m[K(const T& paramValue)
+      |                               [01;36m[K^~~~~~~~~~~~~[m[K
+[ 87%] [32mBuilding CXX object CMakeFiles/stepvel_node.dir/slros_generic_param.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMODEL=stepvel -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"stepvel\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/stepvel/include -I/home/leiyifei/land_ws/src/ugv/stepvel -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/stepvel_node.dir/slros_generic_param.cpp.o -c /home/leiyifei/land_ws/src/ugv/stepvel/slros_generic_param.cpp
+[100%] [32m[1mLinking CXX executable /home/leiyifei/land_ws/devel/.private/stepvel/lib/stepvel/stepvel_node[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/stepvel_node.dir/link.txt --verbose=1
+/usr/bin/c++   -fpermissive  -rdynamic CMakeFiles/stepvel_node.dir/ert_main.cpp.o CMakeFiles/stepvel_node.dir/stepvel.cpp.o CMakeFiles/stepvel_node.dir/stepvel_data.cpp.o CMakeFiles/stepvel_node.dir/linuxinitialize.cpp.o CMakeFiles/stepvel_node.dir/slros_busmsg_conversion.cpp.o CMakeFiles/stepvel_node.dir/slros_initialize.cpp.o CMakeFiles/stepvel_node.dir/slros_generic_param.cpp.o  -o /home/leiyifei/land_ws/devel/.private/stepvel/lib/stepvel/stepvel_node  -Wl,-rpath,/opt/ros/noetic/lib /opt/ros/noetic/lib/libroscpp.so -lpthread /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0 /opt/ros/noetic/lib/librosconsole.so /opt/ros/noetic/lib/librosconsole_log4cxx.so /opt/ros/noetic/lib/librosconsole_backend_interface.so -llog4cxx /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0 /opt/ros/noetic/lib/libxmlrpcpp.so /opt/ros/noetic/lib/libroscpp_serialization.so /opt/ros/noetic/lib/librostime.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0 /opt/ros/noetic/lib/libcpp_common.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4 -lrt 
+make[2]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+[100%] Built target stepvel_node
+make[1]: 离开目录“/home/leiyifei/land_ws/build/stepvel”
+/usr/bin/cmake -E cmake_progress_start /home/leiyifei/land_ws/build/stepvel/CMakeFiles 0

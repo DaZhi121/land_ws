@@ -1,0 +1,259 @@
+/usr/bin/cmake -S/home/leiyifei/land_ws/src/ugv/obstaclestopper -B/home/leiyifei/land_ws/build/obstaclestopper --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/depend
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/build
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[  0%] Built target roscpp_generate_messages_nodejs
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[  0%] Built target std_msgs_generate_messages_cpp
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+[  0%] Built target geometry_msgs_generate_messages_cpp
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+[  0%] Built target rosgraph_msgs_generate_messages_py
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/build
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[  0%] Built target geometry_msgs_generate_messages_py
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/geometry_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/std_msgs_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/roscpp_generate_messages_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+make[2]: 对“CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+/usr/bin/make -f CMakeFiles/obstaclestopper_node.dir/build.make CMakeFiles/obstaclestopper_node.dir/depend
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+cd /home/leiyifei/land_ws/build/obstaclestopper && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/src/ugv/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles/obstaclestopper_node.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target obstaclestopper_node[0m
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/make -f CMakeFiles/obstaclestopper_node.dir/build.make CMakeFiles/obstaclestopper_node.dir/build
+make[2]: 进入目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[  9%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/ert_main.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/ert_main.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/ert_main.cpp
+[ 18%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/obstacleStopper.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/obstacleStopper.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/obstacleStopper.cpp
+[ 27%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/obstacleStopper_data.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/obstacleStopper_data.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/obstacleStopper_data.cpp
+[ 36%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/rtGetInf.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/rtGetInf.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/rtGetInf.cpp
+[ 45%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/rtGetNaN.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/rtGetNaN.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/rtGetNaN.cpp
+[ 54%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/rt_nonfinite.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/linuxinitialize.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/rt_nonfinite.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/rt_nonfinite.cpp
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/linuxinitialize.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.cpp
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.cpp:8[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[ 72%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/slros_initialize.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/slros_busmsg_conversion.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/slros_busmsg_conversion.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/slros_busmsg_conversion.cpp
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/slros_initialize.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/slros_initialize.cpp
+[01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.cpp:[m[K In function ‘[01m[Kvoid mw_CreateTask(void (*)(), const char*, int, int, int, int)[m[K’:
+[01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.cpp:396:45:[m[K [01;35m[Kwarning: [m[Kinvalid conversion from ‘[01m[Kvoid*[m[K’ to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-fpermissive[m[K]
+  396 |     status = pthread_create(&thread, &attr, [01;35m[K(void *) taskHandler[m[K, NULL);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kvoid*[m[K
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.h:11[m[K,
+                 from [01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.cpp:8[m[K:
+[01m[K/usr/include/pthread.h:200:15:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kint pthread_create(pthread_t*, const pthread_attr_t*, void* (*)(void*), void*)[m[K’
+  200 |       [01;36m[Kvoid *(*__start_routine) (void *)[m[K,
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 90%] [32mBuilding CXX object CMakeFiles/obstaclestopper_node.dir/slros_generic_param.cpp.o[0m
+/usr/bin/c++  -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0 -DMAT_FILE=0 -DMODEL=obstacleStopper -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DMT=0 -DMULTI_INSTANCE_CODE=0 -DMW_SCHED_OTHER -DNCSTATES=0 -DNUMST=1 -DONESTEPFCN=1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"obstaclestopper\" -DROS_PROJECT -DRT=RT -DSTACK_SIZE=64 -DTERMFCN=1 -DTID01EQ=0 -DUNIX -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -I/home/leiyifei/land_ws/src/ugv/obstaclestopper/include -I/home/leiyifei/land_ws/src/ugv/obstaclestopper -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fpermissive     -o CMakeFiles/obstaclestopper_node.dir/slros_generic_param.cpp.o -c /home/leiyifei/land_ws/src/ugv/obstaclestopper/slros_generic_param.cpp
+In file included from [01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/ert_main.cpp:26[m[K:
+[01m[K/home/leiyifei/land_ws/src/ugv/obstaclestopper/linuxinitialize.h:4:[m[K [01;35m[Kwarning: [m[K"_GNU_SOURCE" redefined
+    4 | #define _GNU_SOURCE
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[100%] [32m[1mLinking CXX executable /home/leiyifei/land_ws/devel/.private/obstaclestopper/lib/obstaclestopper/obstaclestopper_node[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/obstaclestopper_node.dir/link.txt --verbose=1
+/usr/bin/c++   -fpermissive  -rdynamic CMakeFiles/obstaclestopper_node.dir/ert_main.cpp.o CMakeFiles/obstaclestopper_node.dir/obstacleStopper.cpp.o CMakeFiles/obstaclestopper_node.dir/obstacleStopper_data.cpp.o CMakeFiles/obstaclestopper_node.dir/rtGetInf.cpp.o CMakeFiles/obstaclestopper_node.dir/rtGetNaN.cpp.o CMakeFiles/obstaclestopper_node.dir/rt_nonfinite.cpp.o CMakeFiles/obstaclestopper_node.dir/linuxinitialize.cpp.o CMakeFiles/obstaclestopper_node.dir/slros_busmsg_conversion.cpp.o CMakeFiles/obstaclestopper_node.dir/slros_initialize.cpp.o CMakeFiles/obstaclestopper_node.dir/slros_generic_param.cpp.o  -o /home/leiyifei/land_ws/devel/.private/obstaclestopper/lib/obstaclestopper/obstaclestopper_node  -Wl,-rpath,/opt/ros/noetic/lib /opt/ros/noetic/lib/libroscpp.so -lpthread /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0 /opt/ros/noetic/lib/librosconsole.so /opt/ros/noetic/lib/librosconsole_log4cxx.so /opt/ros/noetic/lib/librosconsole_backend_interface.so -llog4cxx /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0 /opt/ros/noetic/lib/libxmlrpcpp.so /opt/ros/noetic/lib/libroscpp_serialization.so /opt/ros/noetic/lib/librostime.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0 /opt/ros/noetic/lib/libcpp_common.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4 -lrt 
+make[2]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+[100%] Built target obstaclestopper_node
+make[1]: 离开目录“/home/leiyifei/land_ws/build/obstaclestopper”
+/usr/bin/cmake -E cmake_progress_start /home/leiyifei/land_ws/build/obstaclestopper/CMakeFiles 0
