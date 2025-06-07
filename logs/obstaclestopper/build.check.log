@@ -1,0 +1,1 @@
+/usr/bin/cmake -S/home/leiyifei/land_ws/src/ugv/obstaclestopper -B/home/leiyifei/land_ws/build/obstaclestopper --check-build-system CMakeFiles/Makefile.cmake 0

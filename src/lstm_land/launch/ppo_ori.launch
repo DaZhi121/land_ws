@@ -1,0 +1,20 @@
+<launch>
+    <arg name="model_path" default="$(find lstm_land)/models/ppo_6.zip"/>
+    
+    <!-- 决策节点 -->
+    <node pkg="lstm_land" 
+          type="ppo_ori_node.py" 
+          name="ppo_decision"
+          output="screen"
+          respawn="true">
+        <!-- 私有参数传递 -->
+        <param name="model_path" value="$(arg model_path)"/>
+        <param name="height_local" value="0.35"/>
+        <param name="target_local_x" value="0.2"/>
+        <param name="target_local_y" value="0.2"/>
+    </node>
+
+    <!-- 观测节点 -->
+    <include file="$(find lstm_land)/launch/observation.launch"/>
+    <!-- <include file="$(find lstm_land)/launch/uwb_visualization.launch"/> -->
+</launch>

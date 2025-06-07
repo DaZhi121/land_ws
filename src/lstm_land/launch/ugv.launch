@@ -3,12 +3,12 @@
     <node pkg="lstm_land" type="car_control.py" name="ugv_motion_controller" output="screen">
         <!-- 基础运动参数 -->
         <param name="linear_speed" value="3.0" />
-        <param name="circular_angular" value="0.1" />
+        <param name="circular_angular" value="0.05" />
         
         <!-- 蛇形运动参数配置 -->
         <rosparam param="serpentine">
             angular_amp: 0.2    # 角速度振幅 (rad/s)
-            amplitude: 0.5      # 横向振幅 (m)
+            amplitude: 1.5      # 横向振幅 (m)
         </rosparam>
         
         <!-- 调试参数 -->

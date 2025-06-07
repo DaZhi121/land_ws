@@ -4,7 +4,7 @@ import numpy as np
 from std_msgs.msg import Header, Float32MultiArray
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import Range
-from geometry_msgs.msg import TwistStamped, Vector3, Quaternion
+from geometry_msgs.msg import TwistStamped, Vector3, Quaternion, Point
 from lstm_land.msg import Observation
 
 class ObservationNode:
@@ -19,9 +19,11 @@ class ObservationNode:
         self.ugv_odom = Odometry()
         self.drone_velocity = Vector3()
         self.height = 0.0
-        self.height_local = 0.0
+        self.height_r = 0.0
+        self.height_local = 0.2
         # 创建发布器
         self.obs_pub = rospy.Publisher('/lstm_land/observation', Observation, queue_size=10)
+        self.target_pub = rospy.Publisher('/input_point', Point, queue_size=10)
         
         # 订阅者配置
         rospy.Subscriber("/uwb_data", Float32MultiArray, self.uwb_callback)
@@ -29,10 +31,16 @@ class ObservationNode:
         rospy.Subscriber("/range", Range, self.range_callback)
         rospy.Subscriber("/mavros/local_position/velocity_local",
                         TwistStamped, self.vel_callback)
+        rospy.Subscriber('/uav0/mavros/local_position/odom', Odometry, self.uav_odom_cb)
         
         # 控制参数
         self.publish_rate = 20  # Hz
         self.last_pub_time = rospy.Time.now()
+
+    def uav_odom_cb(self, msg):
+
+        self.height = msg.pose.pose.position.z-1.74
+
 
     def load_parameters(self):
         """从参数服务器加载目标位置"""
@@ -61,7 +69,7 @@ class ObservationNode:
 
     def range_callback(self, msg):
         """处理高度计数据"""
-        self.height = msg.range
+        self.height_r = msg.range
 
     def vel_callback(self, msg):
         """处理无人机速度"""
@@ -80,6 +88,9 @@ class ObservationNode:
         # UWB距离测量
         obs.uwb_dist = self.uwb_dist.tolist()
         
+
+
+
         # 车辆状态
         obs.car_speed = Vector3(
             x=self.ugv_odom.twist.twist.linear.x,
@@ -111,6 +122,11 @@ class ObservationNode:
                 
             try:
                 obs_msg = self.compose_observation()
+                target_msg = Point()
+                target_msg.x = obs_msg.target_local[0]
+                target_msg.y = obs_msg.target_local[1]
+                target_msg.z = 0
+                self.target_pub.publish(target_msg)
                 self.obs_pub.publish(obs_msg)
                 self.last_pub_time = rospy.Time.now()
             except Exception as e:

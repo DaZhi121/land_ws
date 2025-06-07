@@ -1,0 +1,34 @@
+<launch>
+    <!-- 参数定义 -->
+    <arg name="ugv_namespace" default="ugv_0" />
+    <arg name="uav_namespace" default="uav1" />
+    <arg name="rviz_config" default="$(find lstm_land)/config/uwb.rviz" />
+    
+    <!-- 可视化节点参数配置 -->
+    <node pkg="lstm_land" type="visualization_node.py" name="uwb_visualizer" output="screen">
+        <!-- 字符串参数 -->
+        <param name="ugv_namespace" value="$(arg ugv_namespace)" />
+        <param name="uav_namespace" value="$(arg uav_namespace)" />
+        
+        <!-- 列表参数必须使用rosparam标签 -->
+        <rosparam param="uwb_installation_offset">[0.2, 0.0, -0.1]</rosparam>
+        <rosparam param="uav_initial_offset">[8.0, 0.0, 0.0]</rosparam>
+        
+        <!-- TF缓冲区参数 -->
+        <param name="tf_timeout" value="0.5" />
+        <param name="tf_cache_time" value="10.0" />
+    </node>
+
+    <!-- 静态TF示例（根据实际需要添加） -->
+    <node pkg="tf2_ros" type="static_transform_publisher" name="ugv_base_link" 
+          args="3 0 0 0 0 0 world map" />
+
+    <!-- RViz启动配置 -->
+    <node pkg="rviz" type="rviz" name="rviz" 
+          args="-d $(arg rviz_config)" 
+          respawn="true" 
+          output="log">
+    </node>
+    <include file="$(find lstm_land)/launch/eval.launch"/>
+    <include file="$(find lstm_land)/launch/convert.launch"/>
+</launch>

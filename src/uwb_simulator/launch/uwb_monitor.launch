@@ -2,9 +2,9 @@
     <!-- 参数配置，允许启动时覆盖 -->
     <arg name="ugv_namespace" default="ugv_0" />
     <arg name="uav_namespace" default="uav0" />
-    <arg name="uwb_installation_offset" default="[0.2, 0.0, -0.1]" />
-    <arg name="uav_initial_offset" default="[3.0, 0.0, 0.1]" />
-    <arg name="noise_sigma" default="0.0" />
+    <arg name="uwb_installation_offset" default="[0.0, 0.0, 0.0]" />
+    <arg name="uav_initial_offset" default="[3.0, 0.0, 0.0]" />
+    <arg name="noise_sigma" default="0.3" />
 =
     <!-- 启动UWB模拟监控节点 -->
     <node pkg="uwb_simulator" type="uwb_monitor.py" name="uwb_monitor" output="screen">

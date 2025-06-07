@@ -1,5 +1,6 @@
 <launch>
-    <arg name="model_path" default="$(find lstm_land)/models/drone_policy_a6_best_v1.onnx"/>
+    <arg name="model_path" default="$(find lstm_land)/models/ppo_drone_v5.onnx"/>
+
     
     <!-- 决策节点 -->
     <node pkg="lstm_land" 
@@ -9,6 +10,9 @@
           respawn="true">
         <!-- 私有参数传递 -->
         <param name="model_path" value="$(arg model_path)"/>
+        <param name="height_local" value="1.3"/>
+        <param name="target_local_x" value="0.7"/>
+        <param name="target_local_y" value="0.1"/>
     </node>
 
     <!-- 观测节点 -->

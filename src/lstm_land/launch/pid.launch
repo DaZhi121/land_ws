@@ -1,0 +1,13 @@
+<launch>
+    <!-- 决策节点 -->
+    <node pkg="lstm_land" 
+          type="pid_node.py" 
+          name="pid_decision"
+          output="screen"
+          respawn="true">
+
+    </node>
+    <!-- 观测节点 -->
+    <include file="$(find lstm_land)/launch/observation.launch"/>
+    <!-- <include file="$(find lstm_land)/launch/uwb_visualization.launch"/> -->
+</launch>

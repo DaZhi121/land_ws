@@ -66,7 +66,7 @@ class HybridController:
         rospy.Subscriber('/uav0/mavros/state', State, self.state_cb)
         rospy.Subscriber('/uav0/mavros/local_position/pose', 
                         PoseStamped, self.pose_cb)
-        rospy.Subscriber('/LSTM/cmd_vel',  # 统一订阅速度指令
+        rospy.Subscriber('/pid/cmd_vel',  # 统一订阅速度指令
                         TwistStamped, self.vel_cmd_cb)
         
         # 服务客户端

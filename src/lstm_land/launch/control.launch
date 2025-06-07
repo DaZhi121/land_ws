@@ -29,5 +29,7 @@
                to="/uav0/mavros/setpoint_position/local"/>
         <remap from="/uav0/mavros/setpoint_velocity/cmd_vel" 
                to="/uav0/mavros/setpoint_velocity/cmd_vel"/>
+        <remap from="/pid/cmd_vel" 
+               to="/lstm/cmd_vel"/>
     </node>
 </launch>

@@ -1,0 +1,36 @@
+<launch>
+    <!-- 评估参数配置 -->
+    <arg name="simulation_mode" default="true" />
+    <arg name="log_output" default="screen" />
+    
+    <!-- 成功判定阈值 -->
+    <arg name="position_threshold" default="0.5" />   <!-- 单位：米 -->
+    <arg name="velocity_threshold" default="0.3" />    <!-- 单位：米/秒 -->
+    <arg name="max_position_error" default="1.5" />    <!-- 单位：米 -->
+    <arg name="max_landing_time" default="60.0" />      <!-- 单位：秒 -->
+
+    <!-- 评估节点 -->
+    <node pkg="lstm_land" type="eval_node.py" name="landing_evaluator" output="$(arg log_output)">
+        <!-- 基本参数 -->
+        <param name="simulation_mode" value="$(arg simulation_mode)" />
+        
+        <!-- 阈值参数 -->
+        <param name="thresholds/position" value="$(arg position_threshold)" />
+        <param name="thresholds/velocity" value="$(arg velocity_threshold)" />
+        <param name="thresholds/max_position" value="$(arg max_position_error)" />
+        <param name="thresholds/max_time" value="$(arg max_landing_time)" />
+    </node>
+
+    <!-- 数据记录 (可选) -->
+    <!-- <node pkg="rosbag" type="record" name="landing_recorder" 
+          args="record -o $(find your_pkg)/bags/landing_exp 
+                /status/land_complete 
+                /status/takeoff_complete 
+                /ugv_0/odom 
+                /uav0/mavros/local_position/odom"
+          if="$(arg simulation_mode)" /> -->
+
+    <!-- 可视化工具 (可选) -->
+    <!-- <node pkg="rqt_plot" type="rqt_plot" name="error_plot"
+          args="/landing_evaluator/position_error /landing_evaluator/velocity_error" /> -->
+</launch>

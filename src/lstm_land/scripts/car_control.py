@@ -15,11 +15,13 @@ class MotionController:
         
         # 运动控制状态变量
         self.takeoff_allowed = False
+        self.land_time = None  # 新增降落时间记录
         self.lock = threading.Lock()
         
         # ROS通信设置
         self.pub = rospy.Publisher('/ugv_0/cmd_vel', Twist, queue_size=10)
         self.takeoff_sub = rospy.Subscriber('/status/takeoff_complete', Bool, self.takeoff_callback)
+        self.land_sub = rospy.Subscriber('/status/land_complete', Bool, self.land_cb)
         
         # 用户输入处理
         self.mode = 0
@@ -53,7 +55,16 @@ class MotionController:
         with self.lock:
             self.takeoff_allowed = msg.data
             status = "已解锁" if msg.data else "已锁定"
-            rospy.loginfo(f"运动状态变更: {status}")
+            # rospy.loginfo(f"运动状态变更: {status}")
+
+    def land_cb(self, msg):
+        """处理降落完成回调（新增上锁功能）"""
+        if msg.data:
+            with self.lock:
+                # 车辆上锁并记录降落时间
+                self.takeoff_allowed = False
+                self.land_time = rospy.Time.now().to_sec()
+                rospy.loginfo("降落完成，车辆已上锁")
 
     def listen_input(self):
         """独立线程监听用户输入"""

@@ -1,0 +1,1 @@
+/usr/bin/cmake -S/home/leiyifei/land_ws/src/ugv/cmdvel2gazebo -B/home/leiyifei/land_ws/build/cmdvel2gazebo --check-build-system CMakeFiles/Makefile.cmake 0

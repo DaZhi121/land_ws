@@ -5,7 +5,12 @@ import numpy as np
 import onnxruntime as ort
 from geometry_msgs.msg import TwistStamped  # 修改消息类型
 from lstm_land.msg import Observation
+from scipy.optimize import least_squares
+from mavros_msgs.srv import CommandBool, CommandLong, SetMode
 import math
+from std_msgs.msg import Bool
+
+
 class DecisionNode:
     def __init__(self):
         rospy.init_node('lstm_decision_maker', anonymous=True)
@@ -18,13 +23,27 @@ class DecisionNode:
         self.agent.reset_states()
         
         # 创建控制指令发布器（修改消息类型）
-        self.cmd_pub = rospy.Publisher('/LSTM/cmd_vel', 
+        self.cmd_pub = rospy.Publisher('/lstm/cmd_vel', 
                                      TwistStamped,  # 使用TwistStamped
                                      queue_size=10)
         
+        self.land_complete_pub = rospy.Publisher('/status/land_complete',
+            Bool,
+            queue_size=1
+        )
+
+
+        self._is_started = 1
+        self.lock = 0
         # 订阅观测数据
         rospy.Subscriber('/lstm_land/observation', Observation, self.obs_callback)
+
         
+        self.set_command_srv = rospy.ServiceProxy('/uav0/mavros/cmd/command', CommandLong)
+        self.car_length = rospy.get_param('~car_length', 1.0)
+        self.car_width = rospy.get_param('~car_width', 1.0)
+        self.safe_altitude = rospy.get_param('~safe_altitude', 0.3)
+        self.safe_r = rospy.get_param('~safe_r', 0.2)
         # 控制参数
         self.control_rate = 20  # Hz
         self.last_obs = None
@@ -32,6 +51,100 @@ class DecisionNode:
         self.yaw = 0
         self.ugv_vx = 0
         self.ugv_vy = 0
+        self.latest_uwb = None
+        self.range_value = 0
+        self.uwb_position = None
+
+    def is_lock(self):
+
+        # 计算UWB布局中心坐标
+        center_x = self.car_length / 2
+        center_y = self.car_width / 2
+        
+        # 解析无人机坐标
+        x= self.uwb_position[0]
+        y= self.uwb_position[1]
+        z= self.uwb_position[2]
+        
+        # 计算水平面距离
+        horizontal_distance = math.sqrt(
+            (x - center_x)**2 + 
+            (y - center_y)**2
+        )
+        
+        # 检查高度约束和水平距离
+        return (
+            horizontal_distance <= self.safe_r and  # 水平距离条件
+            0 <= z <= self.safe_altitude                   # 高度范围条件
+        )
+    
+    def force_disarm(self):
+        if not self._is_started:
+            raise Exception('Not armed')
+        
+        try:
+            self.set_command_srv(
+                command = 400,
+                confirmation = 0,
+                param1 = 0,
+                param2 = 21196,
+                param3 = 0,
+                param4 = 0,
+                param5 = 0,
+                param6 = 0,
+                param7 = 0
+            )
+            
+        except rospy.ServiceException as e:
+            rospy.logerr(e)
+        
+
+    def uwb_positioning(self):
+        L = self.car_length
+        W = self.car_width
+        H = self.range_value-0.2
+        d0 = self.latest_uwb[0]
+        d1 = self.latest_uwb[1]
+        d2 = self.latest_uwb[2]
+        d3 = self.latest_uwb[3]
+        # 初始猜测计算（使用A0-A1和A0-A3的测量值）
+        x_initial = (d0**2 - d1**2 + L**2) / (2 * L)
+        y_initial = (d0**2 - d3**2 + W**2) / (2 * W)
+        
+        # 约束初始值在合理范围内
+        x_initial = np.clip(x_initial, 0, L)
+        y_initial = np.clip(y_initial, 0, W)
+        
+        # 定义残差函数
+        def residual(params, L, W, H, d0, d1, d2, d3):
+            x, y = params
+            # 计算各基站的预测距离
+            pred_d0 = np.sqrt(x**2 + y**2 + H**2)
+            pred_d1 = np.sqrt((x-L)**2 + y**2 + H**2)
+            pred_d2 = np.sqrt((x-L)**2 + (y-W)**2 + H**2)
+            pred_d3 = np.sqrt(x**2 + (y-W)**2 + H**2)
+            return [
+                pred_d0 - d0,
+                pred_d1 - d1,
+                pred_d2 - d2,
+                pred_d3 - d3
+            ]
+        
+        # 设置优化边界（x∈[0,L], y∈[0,W]）
+        bounds = ([0, 0], [L, W])
+        
+        # 执行最小二乘优化
+        result = least_squares(
+            residual,
+            [x_initial, y_initial],
+            args=(L, W, H, d0, d1, d2, d3),
+            bounds=bounds
+        )
+        
+        x_opt, y_opt = result.x
+
+        self.uwb_position = np.array([x_opt, y_opt, H])
+
 
 
     def load_parameters(self):
@@ -46,10 +159,19 @@ class DecisionNode:
     def obs_callback(self, msg):
         """缓存最新观测数据"""
         self.last_obs = msg
+        
         self.yaw = math.atan2(2.0 * (msg.car_quat.w * msg.car_quat.z - msg.car_quat.x * msg.car_quat.y), 
                 1.0 - 2.0 * (msg.car_quat.y**2 + msg.car_quat.z**2))
         self.ugv_vx = msg.car_speed.x
         self.ugv_vy = msg.car_speed.y
+        self.latest_uwb = msg.uwb_dist
+        self.uwb_positioning()
+        self.range_value = msg.height
+        if self.is_lock():
+            # 确保self.lock属性已初始化
+            if not hasattr(self, 'lock'):
+                self.lock = 0
+            self.lock = 1  # 设置锁定标志
 
     def convert_observation(self, msg):
         """维度安全转换方法"""
@@ -90,7 +212,7 @@ class DecisionNode:
         vy_world = action[0] * sin_yaw + (action[1]) * cos_yaw+self.ugv_vy
         cmd.twist.linear.x = vx_world  # 前向速度
         cmd.twist.linear.y = vy_world  # 横向速度
-        cmd.twist.linear.z = np.clip(action[2], -0.3, 0.3)
+        cmd.twist.linear.z = np.clip(action[2], -0.5, 0.5)
         # 如果有角速度需求可添加
         # cmd.twist.angular.z = action[3] 
         rospy.loginfo(f"控制指令: X={cmd.twist.linear.x:.2f}, Y={cmd.twist.linear.y:.2f}, Z={cmd.twist.linear.z:.2f} m/s")
@@ -111,8 +233,13 @@ class DecisionNode:
                 
                 # 执行推理
                 action = self.agent.predict(obs_dict)
-                
+                if(self.lock==1):
+                  self.land_complete_pub.publish(Bool(True))
+                  self.force_disarm()
                 # 发布控制指令
+
+                elif(self.lock==0):
+                  self.land_complete_pub.publish(Bool(False))  
                 self.publish_action(action)
                 
             except Exception as e:

@@ -1,8 +1,8 @@
 position_controller:
   target_position:
-    x: 5.0    # 东向位置 (米)
-    y: 3.0    # 北向位置
-    z: 10.0    # 高度
+    x: 15.0    # 东向位置 (米)
+    y: 0.0    # 北向位置
+    z: 5.0    # 高度
   control_params:
     publish_rate: 20       # 控制频率Hz
     arrival_tolerance: 0.2 # 到达阈值(m)

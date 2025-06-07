@@ -6,23 +6,135 @@ import onnxruntime as ort
 from geometry_msgs.msg import TwistStamped  # 修改消息类型
 from lstm_land.msg import Observation
 import math
+from typing import Dict, Any, Optional
+import logging
+from scipy.optimize import least_squares
+from mavros_msgs.srv import CommandBool, CommandLong, SetMode
+import math
+from std_msgs.msg import Bool
+
+
+
+class PPODronePolicyDeployer:
+    """ONNX模型部署器"""
+    
+    def __init__(self,use_gpu,model_path):
+        self.use_gpu = use_gpu
+        self.session = None
+        self.load_model(model_path)
+        
+    @staticmethod
+    def flatten_observation(obs: Dict[str, np.ndarray]) -> np.ndarray:
+        """将观测字典转换为展平向量"""
+        # 确保所有数组有正确的批次维度
+        batch_size = 1
+        for key in obs:
+            if obs[key].ndim == 1:
+                obs[key] = obs[key][np.newaxis, :]
+            batch_size = obs[key].shape[0]
+        
+        # 拼接观测数据
+        return np.concatenate([
+            obs["height"].reshape(batch_size, -1),
+            obs["uwb_dist"].reshape(batch_size, -1),
+            obs["car_quat"].reshape(batch_size, -1),
+            obs["car_speed"].reshape(batch_size, -1),
+            obs["last_velocity"].reshape(batch_size, -1),
+            obs["target_local"].reshape(batch_size, -1)
+        ], axis=1).astype(np.float32).squeeze()
+    
+
+    def load_model(self, model_path: str) -> bool:
+        """加载ONNX模型"""
+        try:
+            # 配置ONNX Runtime会话选项
+            sess_options = ort.SessionOptions()
+            sess_options.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
+            
+            # 设置执行提供者 (CPU/GPU)
+            providers = ['CPUExecutionProvider']
+            if self.use_gpu:
+                providers.insert(0, 'CUDAExecutionProvider')
+            
+            # 创建推理会话
+            self.session = ort.InferenceSession(
+                model_path,
+                sess_options,
+                providers=providers
+            )
+            
+            # 验证输入输出
+            input_name = self.session.get_inputs()[0].name
+            output_name = self.session.get_outputs()[0].name
+            logging.info(f"Loaded ONNX model: input={input_name}, output={output_name}")
+            
+            return True
+        except Exception as e:
+            logging.error(f"Failed to load ONNX model: {str(e)}")
+            return False
+    
+
+    
+
+    
+    def predict(self, observation: np.ndarray) -> np.ndarray:
+        """执行单次预测"""
+        if not self.session:
+            return np.zeros(3, dtype=np.float32)
+        
+        # 确保输入类型和形状正确
+        if observation.ndim == 1:
+            observation = observation.reshape(1, -1)
+        
+        # 执行推理
+        input_name = self.session.get_inputs()[0].name
+        output_name = self.session.get_outputs()[0].name
+        
+        result = self.session.run(
+            [output_name], 
+            {input_name: observation.astype(np.float32)}
+        )
+        
+        return result[0].squeeze()
+    
+
+
 class DecisionNode:
     def __init__(self):
-        rospy.init_node('lstm_decision_maker', anonymous=True)
+        rospy.init_node('ppo_decision_maker', anonymous=True)
         
         # 初始化参数
         self.load_parameters()
         
         # 初始化ONNX推理引擎
-        self.agent = ONNXAgent(self.model_path)
+        self.agent = PPODronePolicyDeployer(use_gpu=1,model_path=self.model_path)
+
         
         # 创建控制指令发布器（修改消息类型）
         self.cmd_pub = rospy.Publisher('/ppo/cmd_vel', 
                                      TwistStamped,  # 使用TwistStamped
                                      queue_size=10)
         
+        self.land_complete_pub = rospy.Publisher('/status/land_complete',
+            Bool,
+            queue_size=1
+        )
+
+
+        self._is_started = 1
+        self.lock = 0
         # 订阅观测数据
         rospy.Subscriber('/lstm_land/observation', Observation, self.obs_callback)
+
+        
+        self.set_command_srv = rospy.ServiceProxy('/uav0/mavros/cmd/command', CommandLong)
+        self.car_length = rospy.get_param('~car_length', 1.0)
+        self.car_width = rospy.get_param('~car_width', 1.0)
+        self.safe_altitude = rospy.get_param('~safe_altitude', 0.3)
+        self.safe_r = rospy.get_param('~safe_r', 0.2)
+        self.height_local = rospy.get_param('~height_local', 0.3)  # 车体坐标系下的目标位置
+        self.target_local_x = rospy.get_param('~target_local_x', 0.3)  # 车体坐标系下的目标位置
+        self.target_local_y = rospy.get_param('~target_local_y', 0.3)  # 车体坐标系下的目标位置
         
         # 控制参数
         self.control_rate = 20  # Hz
@@ -31,7 +143,101 @@ class DecisionNode:
         self.yaw = 0
         self.ugv_vx = 0
         self.ugv_vy = 0
-        self.height_local = rospy.get_param('~height_local', 1.0)  # 车体坐标系下的目标位置
+        self.latest_uwb = None
+        self.range_value = 0
+        self.uwb_position = None
+
+    def is_lock(self):
+
+        # 计算UWB布局中心坐标
+        center_x = self.car_length / 2
+        center_y = self.car_width / 2
+        
+        # 解析无人机坐标
+        x= self.uwb_position[0]
+        y= self.uwb_position[1]
+        z= self.uwb_position[2]
+        
+        # 计算水平面距离
+        horizontal_distance = math.sqrt(
+            (x - center_x)**2 + 
+            (y - center_y)**2
+        )
+        print(horizontal_distance,z)
+        # 检查高度约束和水平距离
+        return (
+            horizontal_distance <= self.safe_r and  # 水平距离条件
+            0 <= z <= self.safe_altitude                   # 高度范围条件
+        )
+    
+    def force_disarm(self):
+        if not self._is_started:
+            raise Exception('Not armed')
+        
+        try:
+            self.set_command_srv(
+                command = 400,
+                confirmation = 0,
+                param1 = 0,
+                param2 = 21196,
+                param3 = 0,
+                param4 = 0,
+                param5 = 0,
+                param6 = 0,
+                param7 = 0
+            )
+            
+        except rospy.ServiceException as e:
+            rospy.logerr(e)
+        
+
+    def uwb_positioning(self):
+        L = self.car_length
+        W = self.car_width
+        H = self.range_value-0.2
+        d0 = self.latest_uwb[0]
+        d1 = self.latest_uwb[1]
+        d2 = self.latest_uwb[2]
+        d3 = self.latest_uwb[3]
+        # 初始猜测计算（使用A0-A1和A0-A3的测量值）
+        x_initial = (d0**2 - d1**2 + L**2) / (2 * L)
+        y_initial = (d0**2 - d3**2 + W**2) / (2 * W)
+        
+        # 约束初始值在合理范围内
+        x_initial = np.clip(x_initial, 0, L)
+        y_initial = np.clip(y_initial, 0, W)
+        
+        # 定义残差函数
+        def residual(params, L, W, H, d0, d1, d2, d3):
+            x, y = params
+            # 计算各基站的预测距离
+            pred_d0 = np.sqrt(x**2 + y**2 + H**2)
+            pred_d1 = np.sqrt((x-L)**2 + y**2 + H**2)
+            pred_d2 = np.sqrt((x-L)**2 + (y-W)**2 + H**2)
+            pred_d3 = np.sqrt(x**2 + (y-W)**2 + H**2)
+            return [
+                pred_d0 - d0,
+                pred_d1 - d1,
+                pred_d2 - d2,
+                pred_d3 - d3
+            ]
+        
+        # 设置优化边界（x∈[0,L], y∈[0,W]）
+        bounds = ([0, 0], [L, W])
+        
+        # 执行最小二乘优化
+        result = least_squares(
+            residual,
+            [x_initial, y_initial],
+            args=(L, W, H, d0, d1, d2, d3),
+            bounds=bounds
+        )
+        
+        x_opt, y_opt = result.x
+
+        self.uwb_position = np.array([x_opt, y_opt, H])
+
+
 
     def load_parameters(self):
         """加载模型路径配置"""
@@ -45,15 +251,25 @@ class DecisionNode:
     def obs_callback(self, msg):
         """缓存最新观测数据"""
         self.last_obs = msg
+        
         self.yaw = math.atan2(2.0 * (msg.car_quat.w * msg.car_quat.z - msg.car_quat.x * msg.car_quat.y), 
                 1.0 - 2.0 * (msg.car_quat.y**2 + msg.car_quat.z**2))
         self.ugv_vx = msg.car_speed.x
         self.ugv_vy = msg.car_speed.y
+        self.latest_uwb = msg.uwb_dist
+        self.uwb_positioning()
+        self.range_value = msg.height
+        if self.is_lock():
+            # 确保self.lock属性已初始化
+            if not hasattr(self, 'lock'):
+                self.lock = 0
+            self.lock = 1  # 设置锁定标志
+
 
     def convert_observation(self, msg):
         """维度安全转换方法"""
         return {
-            'height': np.array([msg.height+self.height_local], dtype=np.float32).reshape(1, 1),
+            'height': np.array([msg.height-self.height_local], dtype=np.float32).reshape(1, 1),
             'uwb_dist': np.array(msg.uwb_dist, dtype=np.float32).reshape(1, -1),
             'car_quat': np.array([
                 msg.car_quat.x,
@@ -71,7 +287,7 @@ class DecisionNode:
                 msg.last_velocity.y,
                 msg.last_velocity.z
             ], dtype=np.float32).reshape(1, 3),
-            'target_local': np.array(msg.target_local, dtype=np.float32).reshape(1, 2)
+            'target_local': np.array([self.target_local_x,self.target_local_y], dtype=np.float32).reshape(1, 2)
         }
 
     def publish_action(self, action):
@@ -82,14 +298,15 @@ class DecisionNode:
         # 填充头部信息
         cmd.header.seq = self.seq
         cmd.header.stamp = rospy.Time.now()
-        cmd.header.frame_id = "uav0/base_link"  # 根据实际情况设置坐标系
+        cmd.header.frame_id = ""  # 根据实际情况设置坐标系
+        
 
-        vx_world = action[0] * cos_yaw - action[1] * sin_yaw+self.ugv_vx
-        vy_world = action[0] * sin_yaw + action[1] * cos_yaw+self.ugv_vy
-        # 填充速度指令
+        vx_world = action[0] * cos_yaw - (action[1]) * sin_yaw+self.ugv_vx
+        vy_world = action[0] * sin_yaw + (action[1]) * cos_yaw+self.ugv_vy
         cmd.twist.linear.x = vx_world  # 前向速度
         cmd.twist.linear.y = vy_world  # 横向速度
-        cmd.twist.linear.z = np.clip(action[2], -1.0, 1.0)
+        cmd.twist.linear.z = np.clip(action[2], -0.5, 0.5)
+
         # 如果有角速度需求可添加
         # cmd.twist.angular.z = action[3] 
         rospy.loginfo(f"控制指令: X={cmd.twist.linear.x:.2f}, Y={cmd.twist.linear.y:.2f}, Z={cmd.twist.linear.z:.2f} m/s")
@@ -107,11 +324,16 @@ class DecisionNode:
             try:
                 # 转换观测数据
                 obs_dict = self.convert_observation(self.last_obs)
-                
+                obs_np = self.agent.flatten_observation(obs_dict)
                 # 执行推理
-                action = self.agent.predict(obs_dict)
-                
+                action = self.agent.predict(obs_np)
+                if(self.lock==1):
+                  self.land_complete_pub.publish(Bool(True))
+                  self.force_disarm()
                 # 发布控制指令
+
+                elif(self.lock==0):
+                  self.land_complete_pub.publish(Bool(False))  
                 self.publish_action(action)
                 
             except Exception as e:
@@ -120,51 +342,6 @@ class DecisionNode:
             rate.sleep()
 
 
-class ONNXAgent:
-    def __init__(self, onnx_path):
-        # 硬件加速配置
-        self.providers = [
-            ('CUDAExecutionProvider', {
-                'device_id': 0,
-                'arena_extend_strategy': 'kNextPowerOfTwo'
-            }),
-            'CPUExecutionProvider'
-        ]
-        
-        # 会话选项优化
-        sess_options = ort.SessionOptions()
-        sess_options.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
-        sess_options.execution_mode = ort.ExecutionMode.ORT_SEQUENTIAL
-        
-        # 初始化推理会话
-        self.ort_session = ort.InferenceSession(
-            onnx_path, 
-            sess_options=sess_options,
-            providers=self.providers
-        )
-        self.input_names = [i.name for i in self.ort_session.get_inputs()]
-        # 验证输入输出
-        self.input_info = {i.name: i.shape for i in self.ort_session.get_inputs()}
-        self.output_info = [o.name for o in self.ort_session.get_outputs()]
-
-    def predict(self, observation):
-        # 创建精确的输入字典
-        model_input = {}
-        for name in self.input_names:
-            if name not in observation:
-                raise KeyError(f"Model requires input '{name}' but not provided")
-                
-            data = observation[name].astype(np.float32)
-            expected_shape = self.input_info[name]
-            
-            # 自动填充批量维度
-            if len(data.shape) < len(expected_shape):
-                data = data.reshape([1]*len(expected_shape))
-                
-            model_input[name] = data
-            
-        outputs = self.ort_session.run(None, model_input)
-        return outputs[0][0]
 
 if __name__ == '__main__':
     try:

@@ -13,4 +13,5 @@
 
     <!-- 观测节点 -->
     <include file="$(find lstm_land)/launch/observation.launch"/>
+    <!-- <include file="$(find lstm_land)/launch/uwb_visualization.launch"/> -->
 </launch>
